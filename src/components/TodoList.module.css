@@ -1,0 +1,89 @@
+.new-todo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-top: calc(0px - 1.78125rem);
+}
+
+.new-todo input {
+  width: 100%;
+  height: 3.5625rem;
+  color: var(--grey-300);
+  background: var(--grey-500);
+  border: 1px solid var(--grey-700);
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.new-todo input:focus {
+  outline: 1px solid var(--purple);
+}
+
+.new-todo button {
+  height: 3.5625rem;
+  width: 5.625rem;
+  background: var(--blue-dark);
+  color: var(--white);
+  font-weight: 700;
+  border-color: transparent;
+  border-radius: 8px;
+  font-size: 0.875rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.new-todo button span {
+  padding-left: 1rem;
+}
+
+.new-todo button img {
+  padding-right: 1rem;
+}
+
+.todo-list {
+  margin-top: 4rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.875rem;
+}
+
+.todo-created strong {
+  color: var(--blue);
+  margin-right: 0.5rem;
+}
+
+.todo-done strong {
+  color: var(--purple);
+  margin-right: 0.5rem;
+}
+
+.header span {
+  background: var(--grey-400);
+  color: var(--grey-200);
+  padding: 0.125rem 0.5rem;
+  border-radius: 999px;
+  font-weight: 700;
+}
+
+.content {
+  margin-top: 1.5rem;
+  padding: 4rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-top: 1px solid var(--grey-400);
+  border-radius: 8px;
+}
+
+.content strong {
+  margin-top: 1rem;
+  line-height: 1.4;
+}
